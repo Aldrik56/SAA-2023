@@ -1,0 +1,91 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 6433px;
+    margin-top:50px;
+
+    background: #000F25;
+}
+
+.footerContainer{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSocial{
+    
+    
+}
+
+.footerSocialTitle{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top:40px;
+
+    color: #E9C485;
+}
+
+.footerSocialLinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px
+}
+
+.footerSocialLink{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 32px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footerCredit{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footerCreditText1{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footerCreditText2{
+    font-family: 'Fauna One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #E9C485;
+}
+
