@@ -1,38 +1,58 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap'); */
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-attachment: fixed; 
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000916;
+  position:relative;
+  padding-top: -20px;
+  margin-top: -1px;
+  
+  /* background-image: url('../public/assets/Background.png'); */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar {
+    width: 8px;
 }
+
+::-webkit-scrollbar-track {
+    background: rgb(243, 243, 243);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(202, 202, 202);
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(150, 150, 150);
+}
+
 
 * {
-  box-sizing: border-box;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
-h1,
-h2,
-p,
-ul {
-  margin: 0;
+h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color:#E9C485;
+
 }
 
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-button {
-  padding: 0.5rem 1rem;
-  font-weight: bold;
+p {
+  font-family: 'Fauna One', serif;
+  color:#FFFFFF;
+  margin :0px 0px;
 }

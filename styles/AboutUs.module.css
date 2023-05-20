@@ -1,0 +1,142 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    box-sizing: border-box;
+    background: rgba(1, 12, 29, 0.5);
+    border: 2px solid #E9C485;
+    backdrop-filter: blur(20px);
+    margin:auto;
+    border-radius: 52px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.aboutUs{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100% auto;
+    border-bottom: 2px solid #E9C485;
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    height: auto;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #E9C485;
+    
+
+}
+
+.aboutUs p{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    font-family: 'Fauna One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: justify;
+
+}
+
+.content {
+    display:flex;
+    padding: 50px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: normal;
+}
+
+.contentText{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    max-width: 90% auto; 
+    /* identical to box height */
+
+
+    color: #E9C485;
+
+}
+
+.contentText h6{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: justify;
+}
+
+.contentText h4{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: justify;
+}
+
+.contentText p{
+    font-family: 'Fauna One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.contentText h4,
+.contentText h6,
+.contentText p {
+  margin: 10px; /* add this line to remove margin top and bottom */
+
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 70%;
+  }
+  .aboutUs{
+    font-size: 30px;
+    line-height: 43px;
+    width: 90%;
+  }
+  .aboutUs p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contentText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 90% ; 
+  }
+  .contentText h6{
+    font-size: 30px;
+    line-height: 43px;
+  }
+  .contentText h4{
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .contentText p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

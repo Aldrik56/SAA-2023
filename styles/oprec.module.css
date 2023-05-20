@@ -1,0 +1,123 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.oprecSection {
+  width: 70%;
+  /* height: 2395px; */
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 50px 0px;
+}
+
+.oprecHeader {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.oprecLocAndDate{
+    display:flex;
+    justify-content:center;
+    box-sizing: border-box;
+    width: 92.42%;
+    height: 154px;
+    left: 350px;
+    top: 4250px;
+
+    background: rgba(1, 12, 29, 0.5);
+    border: 2px solid #E9C485;
+    backdrop-filter: blur(20px);
+    margin:auto;
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 52px;
+    
+}
+.oprecLoc {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #E9C485;
+    width:50% auto;
+}
+
+.oprecDate {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+.listDivision {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:space-evenly;
+    /* width:100%; */
+    /* margin:40px 160px; */
+}
+.divisionBox {
+    width:300px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+}
+.oprecDivision {
+    width:100%;
+    /* overflow: hidden; */
+}
+.buttonDaftar {
+    width: 380px;
+    height: 80px;
+    left:50%;
+    font-size: 2rem;
+    font-family: 'Fauna One', serif;
+    background: linear-gradient(180deg, #E9C485 0%, #B38F53 100%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.38);
+    border-radius: 40px;
+}
+
+.oprecDaftarButton {
+    display:flex;
+    justify-content: center;
+    gap:40px;
+}
+
+@media only screen and (max-width: 1240px) {
+  .oprecLocAndDate {
+    width: 90%;
+  }
+
+  .oprecLoc {
+    padding-left: 25px;
+
+    width: 100%;
+    border-right: 2px solid #E9C485;
+  }
+
+  .oprecLoc h1{
+    font-size: 15px;
+  }
+  .oprecLoc p{
+    font-size: 15px;
+  }
+  .oprecDate {
+    padding: 25px;
+    width: 70%;
+  }
+  .oprecDate h1{
+    font-size: 15px;
+  }
+
+  .buttonDaftar {
+    width: 300px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+}
