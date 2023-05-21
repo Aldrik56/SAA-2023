@@ -17,7 +17,7 @@ const Header = () => {
             <br />
             Association
             <br />
-            Award
+            Awards
             <br />
             2023
           </p>
