@@ -64,8 +64,8 @@ const Oprec = (props) => {
           src={decor}
           height={22.5}
           style={{
-            width: "56vw",
-            height: "auto",
+            // width: "56vw",
+            // height: "auto",
             marginTop: "50px",
           }}
           alt=""
@@ -101,15 +101,6 @@ const Oprec = (props) => {
           {listDivisi.map(renderDivisi)}
         </div>
       </div>
-      <p
-        style={{
-          fontSize: isScreenSmall ? "16px" : "22px",
-          width: isScreenSmall ? "80%" : "60%",
-          margin: "40px auto",
-          textAlign: "center",
-        }}
-      >
-      </p>
       <div className={styles.oprecDaftarButton}>
         <Image
           src={textDecorKiri}

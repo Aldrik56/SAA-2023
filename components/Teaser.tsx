@@ -16,11 +16,6 @@ const Teaser=()=> {
           <Image
             src={decor}
             // height={isScreenSmall ? 18 : 42}
-            style={{
-              width: "56vw",
-              height:"auto",
-              marginTop: "50px",
-            }}
             alt=""
           />
           <h1 onClick={handleClick} id="goblok">OUR TEASER VIDEO</h1>

@@ -11,11 +11,6 @@ const AboutUs = () => {
           <Image
             src={decor}
             // height={isScreenSmall ? 22 : 42}
-            style={{
-              width: "56vw",
-              height:"auto",
-              marginTop: "50px",
-            }}
             alt=""
           />
           <h4>About Us</h4>

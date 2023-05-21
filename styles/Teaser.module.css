@@ -23,9 +23,7 @@
   /* margin-top: 50px; */
 }
 .teaserHeader img {
-  /* height:auto !important; */
-  /* width:82.42% !important; */
-  /* margin-top: 50px; */
+  
 }
 
 .teaserVideo {
@@ -44,15 +42,19 @@
 /* Responsive Styles */
 @media (min-width:300px){
   .teaserVideo iframe {
-    width:65vw !important;
+    width:90vw !important;
     border-radius:20px;
-    height:40vw;
+    height:50vw;
     /* height:40vw !important; */
     /* padding-bottom: 56.25%; */
   }
   .teaserHeader h1{
     align-items: center;
     text-align: center;
+  }
+  .teaserHeader img {
+    width: 80vw !important;
+    height:auto !important;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -64,8 +66,9 @@
     padding-bottom: 50px;
   } */
 
-  .teaserHeader {
-    /* margin-top: ; */
+  .teaserHeader img {
+    width: 56.6vw !important;
+    /* height:auto !important; */
   }
 
   /* .teaserVideo {

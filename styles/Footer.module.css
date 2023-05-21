@@ -1,4 +1,36 @@
 
+@media(max-width:450px){
+  .footerSocialTitle{
+    font-size: 20px !important;
+  }
+  .footerSocialLink img {
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .footerSocialLinks {
+    gap: 20px !important;
+    margin-bottom: 30px !important;
+  }
+  .footerSocialLink {
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  .footerCreditText1{
+    font-size: 18px !important;
+  }
+  .footerCreditText2{
+    font-size: 16px !important;
+  }
+}
+@media (max-width:600px){
+  .footerSocialTitle{
+    font-size: 24px;
+  }
+
+}
+
 .footer {
   position: footer;
   /* width: calc(1300px + (100vw - 300px) / 10); */
@@ -32,6 +64,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  gap:32px;
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
@@ -41,7 +74,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  margin-right: 32px;
+  /* margin-right: 32px; */
   border-radius: 50%;
   line-height: 40px;
   font-size: 20px;

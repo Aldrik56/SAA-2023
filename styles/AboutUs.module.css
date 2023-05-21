@@ -118,6 +118,9 @@
 
 }
 @media (min-width:300px){
+  .container {
+    width: 80vw;
+  }
   .aboutUs p{
     margin-bottom: 30px;
     margin-left: 10px;
@@ -126,8 +129,16 @@
     line-height: 24px;
 
   }
+  .aboutUs h4 {
+    font-size: 28px !important;
+    line-height: 24px;
+  }
+  .aboutUs img {
+    width: 80vw !important;
+    height:auto !important;
+  }
   .content {
-    padding: 0px;
+    padding: 0px !important;
  
   }
   .contentText{
@@ -136,17 +147,46 @@
     max-width: 100% ; 
   }
   .contentText h6{
-    font-size: 22px;
+    font-size: 18px;
     line-height: 43px;
   }
   .contentText h4{
-    font-size: 25px;
+    font-size: 21px;
+    line-height: 32px;
+  }
+  .contentText p{
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media (min-width:600px ){
+  .contentText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100% ; 
+  }
+  .contentText h6{
+    font-size: 20px;
+    line-height: 43px;
+  }
+  .contentText h4{
+    font-size: 23px;
     line-height: 32px;
   }
   .contentText p{
     font-size: 14px;
     line-height: 24px;
   }
+}
+@media (min-width:768px){
+  .aboutUs img {
+    width: 56.6vw!important;
+    height:auto !important;
+  }
+  .container {
+    width: 70vw !important;
+  }
+
 }
 @media(min-width:800px ){
   .aboutUs p{
@@ -157,8 +197,12 @@
     line-height: 24px;
 
   }
+  .abouUs h4{
+    font-size: 32px !important;
+    /* line-height: 32px; */
+  }
   .content {
-    padding: 0px;
+    padding: 15px! important;
  
   }
   .contentText{
@@ -167,15 +211,15 @@
     max-width: 100% ; 
   }
   .contentText h6{
-    font-size: 25px;
+    font-size: 25px !important;
     line-height: 43px;
   }
   .contentText h4{
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 32px;
   }
   .contentText p{
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 24px;
   }
 }
@@ -189,28 +233,39 @@
     width: 90%;
   }
   .content {
-    padding: 50px;
+    padding: 30px !important;
  
   }
+  .aboutUs h4{
+    font-size: 42px !important;
+    /* line-height: 32px; */
+  }
   .aboutUs p {
-    font-size: 24px;
+    font-size: 24px !important;
     line-height: 24px;
   }
   .contentText{
     margin-top: 20px;
     margin-bottom: 20px;
-    max-width: 90% ; 
+    max-width: 90% !important; 
   }
   .contentText h6{
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 43px;
   }
   .contentText h4{
-    font-size: 42px;
+    font-size: 42px !important;
     line-height: 32px;
   }
   .contentText p{
-    font-size: 16px;
+    font-size: 18px !important;
     line-height: 24px;
+  }
+
+  @media (min-width :1200px){
+    .content {
+      padding: 50px !important;
+   
+    }
   }
 }

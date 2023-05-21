@@ -1,14 +1,22 @@
 @media(min-width:300px){
+    
+    .logo img {
+        width:50.7vw !important;
+    }
+    .oprecHeader img {
+        width: 60vw !important;
+        height: auto !important;
+    }
     .backgroundImage2 {
         top:40vh !important;
     }
     .title p {
-        font-size:18px !important;
+        font-size:32px !important;
         height:auto !important;
     }
     .icons {
         margin-top:10px !important;
-        gap:0px !important;
+        gap:20px !important;
         justify-content: center !important;
     }
     .icon {
@@ -16,32 +24,17 @@
     }
     .icon img{
         width:  auto !important;
-        height: 30px !important;
+        height: 70px !important;
     }
-    .iconHotel img {
-        width:auto !important;
-        height:20px !important;
-    }
+
 }
 @media(min-width:400px){
     .backgroundImage2 {
         top:70vh !important;
     }
-    .title p {
-        font-size:18px !important;
-        height:auto !important;
-    }
     .icons {
         margin-top:15px !important;
-        gap:5px !important;
-    }
-    .icon img{
-        width:  auto !important;
-        height: 50px !important;
-    }
-    .iconHotel img {
-        width:auto !important;
-        height:30px !important;
+        /* gap:5px !important; */
     }
 }
 
@@ -50,21 +43,15 @@
         top:80vh !important;
     }
     .title p {
-        font-size :20px !important;
+        font-size :36px !important;
         height:auto !important;
         /* line-height: 0 !important; */
     }
     .icons {
         margin-top:15px !important;
-        gap:0px !important;
     }
-    .icon img{
-        width:  auto !important;
-        height: 50px !important;
-    }
-    .iconHotel img {
-        width:auto !important;
-        height:30px !important;
+    .logo img {
+        width:40.7vw !important;
     }
 }
 
@@ -73,22 +60,13 @@
         top:110vh !important;
     }
     .title p {
-        font-size :30px !important;
         height:auto !important;
         /* line-height: 0 !important; */
     }
-    .icons {
-        margin-top:30px !important;
-        gap:10px !important;
+    .logo img {
+        width:35.7vw !important;
     }
-    .icon img{
-        width:  auto !important;
-        height: 50px !important;
-    }
-    .iconHotel img {
-        width:auto !important;
-        height:40px !important;
-    }
+
 }
 
 @media (min-width:768px){
@@ -97,19 +75,17 @@
     }
     .icons {
         margin-top:30px !important;
-        gap:10px !important;
+        gap:50px !important;
+        width: 40vw !important;
     }
     .icon img{
         width:  auto !important;
-        height: 60px !important;
-    }
-    .iconHotel img {
-        width:auto !important;
-        height:50px !important;
+        height: 100px !important;
     }
     .logo img {
-        width:22vw !important;
+        width:30.7vw !important;
     }
+
 }
 
 @media (min-width:1000px){
@@ -121,18 +97,15 @@
     }
     .icons {
         margin-top:30px !important;
-        gap:15px !important;
+        gap:50px !important;
     }
     .icon img{
         width:  auto !important;
-        height: 60px !important;
+        height: 100px !important;
     }
-    .iconHotel img {
-        width:auto !important;
-        height:50px !important;
-    }
+
     .logo img {
-        width:18vw !important;
+        width:24vw !important;
     }
 }
 @media (min-width:1200px){
@@ -143,19 +116,12 @@
         font-size :40px !important;
     }
     .icons {
+        margin-top: 40px;
         margin-top:30px !important;
-        gap:30px !important;
-    }
-    .icon img{
-        width:  auto !important;
-        height: 70px !important;
-    }
-    .iconHotel img {
-        width:auto !important;
-        height:60px !important;
+        gap:60px !important;
     }
     .logo img {
-        width:15.7vw !important;
+        width:18vw !important;
     }
 }
 .backgroundImage {
@@ -197,7 +163,7 @@
 
 .container{
     width: 70vw;
-    margin-top: 100px;
+    margin-top: 50px;
     height: fit-content;
     /* background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);

@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&display=swap');
 
 @media (min-width:300px){
+  .oprecHeader img {
+    width:80vw !important;
+    height: auto !important;
+  }
   .oprecLocAndDate{
     width:100% !important;
     height:15.4vh !important;
@@ -63,6 +67,14 @@
   }
   .container {
     width:100vw !important;
+  }
+  .divisionBox img {
+    width:300px !important;
+    height:300px !important;
+  }
+  .divisionBox h1 {
+    margin:0px !important;
+    font-size:1.6rem !important;
   }
 }
 @media(min-width:400px){
@@ -167,6 +179,10 @@
   }
 }
 @media (min-width:768px){
+  .oprecHeader img {
+    width:56.6vw !important;
+
+  }
   .oprecLocAndDate{
     width:100% !important;
     text-align: default;
@@ -246,9 +262,12 @@
     font-size:1.4rem !important;
   }
   .buttonDaftar {
-    width: 380px !important;
+    width: 320px !important;
     height: 80px !important;
     font-size: 1.5rem !important;
+  }
+  .oprecDaftarButton img {
+    height:80px !important;
   }
   .buttonDaftar p {
     font-size: 2rem !important;
