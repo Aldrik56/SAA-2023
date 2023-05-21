@@ -1,6 +1,9 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  width:100%;
+  gap:100px;
+  /* padding: 0 0.5rem; */
+  /* overflow:hidden; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +48,6 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  max-width: 800px;
   margin-top: 3rem;
 }
 
@@ -82,10 +84,20 @@
 .logo {
   height: 1em;
 }
-
+@media(min-width:300px){
+  .container {
+    gap:50px !important;
+  }
+}
+@media(min-width:768px){
+  .container {
+    gap:100px !important;
+  }
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+  
 }

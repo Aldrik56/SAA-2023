@@ -4,6 +4,9 @@ import styles from '../styles/Header.module.css';
 
 const Header = () => {
     return (
+      <>
+      <div className={styles.backgroundImage}></div>
+      <div className={styles.backgroundImage2}></div>
       <div className={styles.container}>
         <div className={styles.logo}>
           <img src="/assets/LOGOSAA.png" alt="logo" />
@@ -26,11 +29,12 @@ const Header = () => {
           <div className={styles.icon}>
             <img src="/assets/logoBEM.png" alt="email" />
           </div>
-          <div className={styles.icon}>
+          {/* <div className={styles.iconHotel}>
             <img src="/assets/hotel.png" alt="facebook" />
-          </div>
+          </div> */}
         </div>
       </div>
+      </>
     );
 }
 

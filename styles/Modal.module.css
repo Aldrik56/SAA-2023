@@ -1,35 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&display=swap');
+
+@media(min-width:300px){
+  .modalContainer img {
+    width:220px !important;
+  }
+
+  .modalContainer button {
+    font-family: 'Fauna One', serif;
+    font-size : 1rem !important;
+    background: linear-gradient(180deg, #E9C485 0%, #B38F53 100%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+    border-radius : 2rem;
+    margin-top: 5vh;
+    padding:0.5rem 3rem !important;
+  }
+}
+@media(min-width:768px){
+  .modalContainer img {
+    width:300px !important;
+  }
+  .modalContainer button {
+    font-size : 2rem !important;
+    padding:0.5rem 5rem !important;
+  }
+}
 .modalBackdro {
   z-index:0;
   position: fixed !important;
-  top: 0;
-  bottom : 0;
-  left: 0;
-  padding: auto;
-  width: 100%;
-  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin:auto auto;
+  padding: 20px;
+  width: 68.75%;
+  /* height: 75%; */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: +100;
-  /* overflow: auto; */
-}
 
+}
+.modalContainer {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.modalContainer h2 {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color:#E9C485;
+}
+.modalContainer p {
+  width:50vw;
+  text-align: center;
+}
+.modalContainer button {
+  font-family: 'Fauna One', serif;
+  font-size : 2rem;
+  background: linear-gradient(180deg, #E9C485 0%, #B38F53 100%);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.8);
+  border-radius : 2rem;
+  margin-top: 5vh;
+  padding:0.5rem 5rem;
+}
+.modalContainer button:hover{
+  transform:scale(0.9);
+}
 .modalContent {
   position: relative;
   width: 90%;
-  height: 60%;
+  height: 100%;
   box-sizing: border-box;
   padding: 20px;
   border-radius: 52px;
-  background: rgba(0, 14, 34, 0.22);
+  background: rgba(0, 14, 34, 0.92);
   border: 2px solid #E9C485;
   backdrop-filter: blur(5px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.92);
   animation: unfoldIn 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) forwards;
   display: flex;
   justify-content: center;
   align-items: center;
 
+}
+.modalContainer p {
+  font-size:1rem;
+  /* margin : 0px 500px; */
 }
 
 @keyframes unfoldIn {

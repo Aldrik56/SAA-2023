@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&display=swap');
 .container{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1000px;
-    box-sizing: border-box;
-    background: rgba(1, 12, 29, 0.5);
-    border: 2px solid #E9C485;
-    backdrop-filter: blur(20px);
-    margin:auto;
-    border-radius: 52px;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  width: 70vw;
+  height: fit-content;
+  margin-top:100px;
+  /* background: rgba(1, 12, 29, 0.5); */
+  /* border: 2px solid #E9C485; */
+  backdrop-filter: blur(20px);
+  margin:auto;
+  border-radius: 52px;
+  /* backdrop-filter: blur(10px); */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 14, 34, 0.5);
+  border: 2px solid #E9C485;
+  backdrop-filter: blur(8.8px);
+  -webkit-backdrop-filter: blur(8.8px);
+}
+.container p {
+  /* text-align: center !important; */
+}
+.container h4 {
+  text-align: center !important;
 }
 
 .aboutUs{
@@ -28,7 +37,6 @@
     font-size: 42px;
     line-height: 57px;
     height: auto;
-    /* identical to box height */
 
     text-align: center;
 
@@ -87,7 +95,7 @@
     font-family: 'Cinzel';
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 60px;
     line-height: 57px;
     text-align: justify;
 }
@@ -109,17 +117,83 @@
   margin: 10px; /* add this line to remove margin top and bottom */
 
 }
-@media only screen and (max-width: 1000px) {
+@media (min-width:300px){
+  .aboutUs p{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 24px;
+
+  }
+  .content {
+    padding: 0px;
+ 
+  }
+  .contentText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100% ; 
+  }
+  .contentText h6{
+    font-size: 22px;
+    line-height: 43px;
+  }
+  .contentText h4{
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .contentText p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+@media(min-width:800px ){
+  .aboutUs p{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px !important;
+    line-height: 24px;
+
+  }
+  .content {
+    padding: 0px;
+ 
+  }
+  .contentText{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100% ; 
+  }
+  .contentText h6{
+    font-size: 25px;
+    line-height: 43px;
+  }
+  .contentText h4{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .contentText p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 1000px) {
   .container {
-    width: 70%;
+    width: 70vw;
   }
   .aboutUs{
     font-size: 30px;
     line-height: 43px;
     width: 90%;
   }
+  .content {
+    padding: 50px;
+ 
+  }
   .aboutUs p {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 24px;
   }
   .contentText{
@@ -128,11 +202,11 @@
     max-width: 90% ; 
   }
   .contentText h6{
-    font-size: 30px;
+    font-size: 32px;
     line-height: 43px;
   }
   .contentText h4{
-    font-size: 20px;
+    font-size: 42px;
     line-height: 32px;
   }
   .contentText p{

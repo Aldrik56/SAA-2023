@@ -10,22 +10,17 @@ const AboutUs = () => {
         <div className={styles.aboutUs}>
           <Image
             src={decor}
-            height={isScreenSmall ? 22 : 42}
+            // height={isScreenSmall ? 22 : 42}
             style={{
-              width: "82.42% !important",
+              width: "56vw",
+              height:"auto",
               marginTop: "50px",
             }}
             alt=""
           />
           <h4>About Us</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          SAA 2023 merupakan kegiatan yang berada dibawah naungan BEM UMN, kegiatan SAA hadir sebagai bentuk apresiasi kepada semua himpunan yang telah bekerja keras selama satu periode masa jabatannya di UMN
           </p>
         </div>
         <div className={styles.content}>
@@ -33,39 +28,23 @@ const AboutUs = () => {
             <h6>CONCEPT</h6>
             <h4>LUXURIOUS PARISIAN NIGHT</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Kemewahan, kemegahan dan indahnya gemerlap-gemerlip Kota Paris sebagai kota cinta menjadi inspirasi konsep bagi Student Association Awards 2023✨
+
+Konsep tersebut diharkan mampu melambangkan setiap mahasiswa UMN yang menaruh sepenuh hatinya dan tanggung jawab untuk himpunannya serta nilai-nilai diantara mahasiswa dan himpunan.
             </p>
           </div>
           <div className={styles.contentText}>
             <h6>THEME</h6>
             <h4>GLOW IN TRIUMPHANCE</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Melalui tema Glow in Triumphance ini, SAA 2023 menekankan penghargaan sebagai penerangan atas kemenangan gemilang yang diraih oleh himpunan. Diharapkan nantinya tema ini dapat meninggalkan kesan memorable bagi para himpunan ✨.
             </p>
           </div>
           <div className={styles.contentText}>
             <h6>TAGLINE</h6>
             <h4>Sparkle with Spirit, Inspire the Merit</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Diangkatnya tagline SAA 2023 menggambarkan bahwa setiap himpunan memancarkan cahaya mereka masing-masing yang akan menginspirasi himpunan lainnya untuk bisa ikut bertumbuh.
             </p>
           </div>
         </div>
