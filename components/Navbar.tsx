@@ -3,7 +3,7 @@ import styles from '../styles/Navbar.module.css';
 
 const Navbar = () => {
     return (
-      <div className={styles.navbar}>
+      <div className={styles.navbar} id="navbar">
         <div className={styles.navbarContainer}>
                 <div className={styles.navbarLogo}>SAA 2023</div>
                 <nav>

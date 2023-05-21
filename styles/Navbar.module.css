@@ -3,7 +3,7 @@
     top: 0;
     left:0;
     background: rgba(0, 13, 31, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8.8px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     width : 100%;
     height: 75px;
@@ -40,12 +40,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .navbarPaths li {
+  list-style: none;
   margin-left: 20px;
 }
 
@@ -58,6 +58,7 @@
   padding: 10px;
   font-family: 'Cinzel';
   color : #E9C485;
+  text-decoration: none;
 }
 
 .navbarPaths li a:hover {

@@ -1,16 +1,271 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+.buttonDaftar a{
+    font-family: 'Fauna One';
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Fauna+One&display=swap');
 
-.oprecSection {
-  width: 70%;
-  /* height: 2395px; */
-  margin: 100px auto;
-  background: rgba(255, 255, 255, 0.2);
+@media (min-width:300px){
+  .oprecLocAndDate{
+    width:100% !important;
+    height:15.4vh !important;
+  }
+  .oprecDate h1 {
+    /* font-size:1rem; */
+    text-align: center;
+  }
+  .oprecLoc p {
+    font-size:0.7rem;
+    text-align:left !important;
+  }
+  .oprecLoc h1 {
+    font-size:0.7rem;
+    text-align:left !important;
+    margin:0px !important;
+  }
+
+  .oprecLocAndDate h1{
+    font-size:0.8rem;
+    width:100%;
+  }
+  .oprecLoc div {
+    height:60% !important;
+    margin:0px 5px !important;
+  }
+  .oprecLoc img {
+    height:50% !important;
+    width:auto !important;
+  }
+  .buttonDaftar{
+    width: 180px !important;
+    height: 50px !important;
+    font-size: 0.9rem !important;
+    
+  }
+  .buttonDaftar{
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 1rem;
+  }
+  .oprecDaftarButton img {
+    height:40px !important;
+    width:auto !important;
+  }
+  .oprecDaftarButton {
+    gap: 10px !important;;
+
+  }
+  .container {
+    width:100vw !important;
+  }
+}
+@media(min-width:400px){
+  .oprecLocAndDate{
+    width:100% !important;
+  }
+  .oprecDateAndDate h1 {
+    font-size:0.8rem;
+    text-align: center;
+  }
+  .oprecLoc p {
+    font-size:0.7rem;
+  }
+
+  .oprecLocAndDate h1{
+    /* font-size:; */
+    width:100%;
+  }
+  .oprecLoc div {
+    /* width:80% !important; */
+    margin:0px 5px !important;
+  }
+  .buttonDaftar{
+      width: 200px ;
+      height: 60px;
+      font-size: 1rem !important;
+  }
+    .buttonDaftar{
+      width: 150px !important;
+      height: 50px !important;
+      font-size: 1rem;
+    }
+    .oprecDaftarButton img {
+      height:50px !important;
+      width:auto !important;
+    }
+    .oprecDaftarButton {
+      gap: 20px !important;;
+  
+    }
+    .divisionBox img {
+      width:300px !important;
+      height:300px !important;
+    }
+    .divisionBox h1 {
+      margin:0px !important;
+      font-size:1.6rem !important;
+    }
+}
+@media (min-width:500px){
+  .buttonDaftar{
+    width: 200px !important;
+    height: 60px !important;
+    font-size: 1rem;
+  }
+  .buttonDaftar{
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 1rem;
+  }
+  .oprecDaftarButton img {
+    height:50px !important;
+    width:auto !important;
+  }
+  .oprecDaftarButton {
+    gap: 50px !important;;
+
+  }
+  
+}
+@media (min-width:600px){
+  .oprecLocAndDate{
+    width:100% !important;
+  }
+  .oprecLocAndDate h1 {
+    font-size:1rem !important;
+    text-align: center;
+  }
+  .oprecLoc p {
+    font-size:0.9rem;
+  }
+  .buttonDaftar{
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 1rem;
+  }
+  .oprecDaftarButton img {
+    height:50px !important;
+    width:auto !important;
+  }
+  .oprecDaftarButton {
+    gap: 50px !important;;
+
+  }
+  .container{
+    width: 85vw !important;
+  }
+}
+@media (min-width:768px){
+  .oprecLocAndDate{
+    width:100% !important;
+    text-align: default;
+  }
+  .oprecLocAndDate > div {
+    gap:20px;
+  }
+  .buttonDaftar{
+    width: 240px !important;
+    height: 60px !important;
+    font-size: 1rem;
+  }
+  .oprecDaftarButton img {
+    height:60px !important;
+    width:auto !important;
+  }
+  .oprecDaftarButton {
+    gap:80px;
+
+  }
+  .container{
+    width: 70vw !important;
+  }
+  
+}
+
+
+@media (min-width:900px){
+  .divisionBox {
+    width:250px !important;
+  }
+  .oprecLoc p {
+    font-size:15px !important;
+  } 
+  .oprecDaftarButton {
+    display:flex;
+    justify-content: center;
+    gap:100px;
+  }
+  .oprecLocAndDate h1 {
+    font-size:1.3rem !important;
+  }
+  .oprecLoc p {
+    font-size:1.2rem !important;
+  }
+
+  
+}
+@media (min-width: 1240px) {
+  .oprecLocAndDate {
+    width: 90%;
+  }
+
+  .oprecLoc {
+    padding-left: 25px;
+
+    width: 100%;
+    border-right: 2px solid #E9C485;
+  }
+
+  .oprecDate {
+    padding: 25px;
+    width: 70%;
+  }
+  /* .oprecDate h1{
+    font-size: 1.4rem !important;
+  } */
+  .oprecLocAndDate h1 {
+    font-size:1.5rem !important;
+  }
+  .oprecLoc p {
+    font-size:1.4rem !important;
+  }
+  .buttonDaftar {
+    width: 300px;
+    height: 80px;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width:1450px){
+.divisionBox {
+  width:300px !important;
+}
+.oprecLocAndDate h1 {
+  font-size:1.6rem !important;
+}
+
+}
+.container{
+  width: 70vw;
+  height: fit-content;
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  padding: 50px 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
+}
+.oprecSection {
+  width: 70vw;
+  height: fit-content;
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .oprecHeader {
@@ -23,14 +278,15 @@
     justify-content:center;
     box-sizing: border-box;
     width: 92.42%;
-    height: 154px;
+    height: 20.4vh;
     left: 350px;
     top: 4250px;
 
     background: rgba(1, 12, 29, 0.5);
     border: 2px solid #E9C485;
     backdrop-filter: blur(20px);
-    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 52px;
@@ -41,7 +297,18 @@
     justify-content: center;
     align-items: center;
     border-right: 2px solid #E9C485;
-    width:50% auto;
+    width:50%;
+}
+
+.oprecLoc div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5px 20px 20px 30px;
+}
+.oprecLoc img{
+  height:auto;
+  margin-left: 2vw;
 }
 
 .oprecDate {
@@ -67,57 +334,42 @@
     justify-content: center;
     margin: auto auto;
 }
+
+.divisionBox img {
+  width:150px;
+  height:150px;
+}
+.divisionBox img:hover {
+  transform:scale(1.15);
+}
+
 .oprecDivision {
     width:100%;
-    /* overflow: hidden; */
 }
-.buttonDaftar {
-    width: 380px;
-    height: 80px;
-    left:50%;
-    font-size: 2rem;
-    font-family: 'Fauna One', serif;
-    background: linear-gradient(180deg, #E9C485 0%, #B38F53 100%);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.38);
-    border-radius: 40px;
-}
+
+/* Button Coming Soon */
 
 .oprecDaftarButton {
     display:flex;
     justify-content: center;
-    gap:40px;
+    gap:150px;
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Fauna One';
+}
+.buttonDaftar {
+    position: flex;
+    width: 380px;
+    height: 80px;
+    left: calc(50% - 380px/2);
+    top: 6203px;
+    font-family: 'Fauna One';
+
+    background: linear-gradient(180deg, #E9C485 0%, #B38F53 100%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.38);
+    border-radius: 40px;
+}
+.buttonDaftar:hover{
+ transform: scale(0.9);
 }
 
-@media only screen and (max-width: 1240px) {
-  .oprecLocAndDate {
-    width: 90%;
-  }
-
-  .oprecLoc {
-    padding-left: 25px;
-
-    width: 100%;
-    border-right: 2px solid #E9C485;
-  }
-
-  .oprecLoc h1{
-    font-size: 15px;
-  }
-  .oprecLoc p{
-    font-size: 15px;
-  }
-  .oprecDate {
-    padding: 25px;
-    width: 70%;
-  }
-  .oprecDate h1{
-    font-size: 15px;
-  }
-
-  .buttonDaftar {
-    width: 300px;
-    height: 60px;
-    font-size: 1.5rem;
-  }
-
-}
