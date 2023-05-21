@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "../styles/globals.css";
+import background from '../public/assets/Background.png';
 
 
 function MyApp({ Component, pageProps }) {
