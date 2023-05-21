@@ -48,7 +48,7 @@
     
   }
   .buttonDaftar{
-    width: 120px !important;
+    width: 160px !important;
     height: 40px !important;
     color:black;
     font-size: 1rem;
@@ -66,7 +66,7 @@
 
   }
   .container {
-    width:100vw !important;
+    width:90vw !important;
   }
   .divisionBox img {
     width:300px !important;
@@ -147,7 +147,7 @@
 }
 @media (min-width:600px){
   .oprecLocAndDate{
-    width:100% !important;
+    width:90% !important;
   }
   .oprecLocAndDate h1 {
     font-size:1rem !important;
@@ -184,7 +184,7 @@
 
   }
   .oprecLocAndDate{
-    width:100% !important;
+    width:90% !important;
     text-align: default;
   }
   .oprecLocAndDate > div {

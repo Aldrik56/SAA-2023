@@ -7,16 +7,16 @@ const Footer = () =>{
           <div className={styles.footerSocial}>
             <div className={styles.footerSocialTitle}>YOU CAN FIND US ON:</div>
             <div className={styles.footerSocialLinks}>
-              <a href="#" className={styles.footerSocialLink}>
+              <a href="https://www.instagram.com/saa_umn/" className={styles.footerSocialLink}>
                 <img src="/assets/instagram.png" alt="instagram" />
               </a>
-              <a href="#" className={styles.footerSocialLink}>
+              <a href="mailto:saa@umn.ac.id" className={styles.footerSocialLink}>
                 <img src="/assets/email.png" alt="email" />
               </a>
-              <a href="#" className={styles.footerSocialLink}>
+              <a href="https://www.facebook.com/profile.php?id=100092475828071" className={styles.footerSocialLink}>
                 <img src="/assets/facebook.png" alt="facebook" />
               </a>
-              <a href="#" className={styles.footerSocialLink}>
+              <a href="https://www.tiktok.com/@saa_umn?is_from_webapp=1&sender_device=pc" className={styles.footerSocialLink}>
                 <img src="/assets/tiktok.png" alt="tiktok" />
               </a>
             </div>
