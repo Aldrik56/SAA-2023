@@ -26,6 +26,7 @@ const Modal2 = (props)=> {
             <Image src={listDivisi[props.indexModal].img} width={300} height={300} alt="" />
             <p>{listDivisi[props.indexModal].deskripsi}</p>
             <button onClick={props.handleModalClose}>Close</button>
+            
           </div>
         </Modals>
     );
