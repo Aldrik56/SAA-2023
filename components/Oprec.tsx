@@ -109,9 +109,6 @@ const Oprec = (props) => {
           textAlign: "center",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam!!!
       </p>
       <div className={styles.oprecDaftarButton}>
         <Image
@@ -122,7 +119,7 @@ const Oprec = (props) => {
         />
         <a href=" https://bit.ly/OprecSAA2023" target="_blank">
           <button className={styles.buttonDaftar}>
-              Join Now
+              <p>Join Now</p>
           </button>
         </a>
         <Image

@@ -46,7 +46,12 @@
   .buttonDaftar{
     width: 120px !important;
     height: 40px !important;
+    color:black;
     font-size: 1rem;
+  }
+  .buttonDaftar p{
+    font-size: 1rem !important;
+    color:black;
   }
   .oprecDaftarButton img {
     height:40px !important;
@@ -142,8 +147,13 @@
   .buttonDaftar{
     width: 150px !important;
     height: 50px !important;
-    font-size: 1rem;
+    font-size: 1.5rem !important;
   }
+  .buttonDaftar p{
+    color:black;
+    font-size: 1.2rem !important;
+  }
+
   .oprecDaftarButton img {
     height:50px !important;
     width:auto !important;
@@ -167,7 +177,7 @@
   .buttonDaftar{
     width: 240px !important;
     height: 60px !important;
-    font-size: 1rem;
+    font-size: 1.5rem !important;
   }
   .oprecDaftarButton img {
     height:60px !important;
@@ -180,7 +190,9 @@
   .container{
     width: 70vw !important;
   }
-  
+  .buttonDaftar p{
+    font-size: 1.6rem !important;
+  }
 }
 
 
@@ -201,6 +213,9 @@
   }
   .oprecLoc p {
     font-size:1.2rem !important;
+  }
+  .buttonDaftar p{
+    font-size: 1.6rem !important;
   }
 
   
@@ -231,9 +246,12 @@
     font-size:1.4rem !important;
   }
   .buttonDaftar {
-    width: 300px;
-    height: 80px;
-    font-size: 1.5rem;
+    width: 380px !important;
+    height: 80px !important;
+    font-size: 1.5rem !important;
+  }
+  .buttonDaftar p {
+    font-size: 2rem !important;
   }
 
 }

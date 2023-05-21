@@ -33,7 +33,7 @@ export default function Home() {
         <title>SAA UMN 2023</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      {/* <Navbar />/ */}
       <Header />
       <Teaser/>
       <AboutUs/>
