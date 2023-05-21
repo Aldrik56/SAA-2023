@@ -15,14 +15,14 @@ export default function Home() {
 
     function handleModalOpen(event) {
       // disableScroll();
-      document.getElementById("navbar").style.display="none";
+      // document.getElementById("navbar").style.display="none";
       setIndexModal(event.target.id);
       setModalOpen(true);
     };
 
     const handleModalClose = (event) => {
       // enableScroll();
-      document.getElementById("navbar").style.display="";
+      // document.getElementById("navbar").style.display="";
       console.log(event.target.id)
       setModalOpen(false);
     };
